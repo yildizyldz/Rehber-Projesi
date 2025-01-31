@@ -1,62 +1,20 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-📖 Rehber Projesi
+-Bu proje, kişisel veya kurumsal rehber bilgilerini yönetmek için geliştirilmiş bir web uygulamasıdır. React, Axios, HTML ve JavaScript kullanılarak oluşturulmuştur.
 
-Currently, two official plugins are available:
+🚀 Özellikler
+📌 Rehbere kişi ekleme, silme ve güncelleme
+🔍 Arama ve filtreleme özellikleri
+🌐 Axios ile API istekleri
+📱 Duyarlı (responsive) tasarım
+🖼️ Proje Görseli
+Aşağıda projenin çalışma anını gösteren bir GIF bulunmaktadır:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Uploading EkranKayd2025-01-31134154-ezgif.com-video-to-gif-converter.gif…]()
 
-# Vite
 
-- Klasik react uygulamalarına göre daha güncel olna bu metot sayesinde daha hızlı şekilde uygulama oluşturup ayağa kaldırırız.
-
-# Vite ile oluşturlan react uygulaması && Klasik react uygulaması
-
-- Vite ile oluşturulan bir proje klasik react uygulamasına göre kullanmadığımız bağımlılıkları içermediğinden çok daha hızlı şekilde oluşturulur.Bunun yanında klasik react uygulmasına göre daha performanslı çalışır.Build işlemide klasik uygulamaya göre çok daha hızlıdır.
-
-- HMR: Vite projesinin değişiklikleri tarayıcaya çok daha hızlı bir şekilde aktarmasını sağlar.
-
-# JSON SERVER
-
-- Bir proje temel olarak iki kısımından oluşur.
-
-- i-) Frontend
-- ii-) Backend
-
-- Proje geliştirken api a istek atar verileri alır bu verilerle arayüz oluştururuz.Fakat elimizde bir api'ın bulunmadığı yada api'ın hazırlanmasının uzun süreceği durumlarda sanki bir api a sahibiz gibi geliştirme yapmamıza olanak sağlayan bir kütüphane mevcuttur.`json-server` kütüphanesi sayesinde fake bir api elde ederiz.
-
-- Bu fake api oluşturulurken önce `npm install json-server` ile kütüphane projemize indirilir.
-- Sonrasında proje klasöründe `db.json` dosyası oluşturulur.Burada önemli kısım bu dosyanın src klasörüyle aynı dizinde olmasıdır.
-- Bu `db.json` dosyası içerisinde veriler oluşturulur.
-- `npx son-server db.json` komutuyla ilgili fake api ayağa kaldırılır
-
-# HTTP METOTLARI
-
-- Server ve client arasında arasında veri alışverişi sağlamak için kullanılır.
-
-- 1. GET:
-- Serverdan verileri almak için kullanılır.
-
-- 2. POST:
-- Server a veri göndermek için kullanılır.Gönderilecek veriler isteğin body'si içerisine eklenir.
-
-- 3. PUT:
-- Serverdaki bir veriyi güncellemek için kullanılır.Bu metot veriyi tamamen güncellemek için kullanılır.
-
-- 4. PATCH:
-- Serverdaki veriyi güncellemek için kullanılır.Bu metot verinin sadece bir kısmını güncellemek için kullanılır.
-
-- 5. DELETE:
-- Serverdaki veriyi silmek için kullanılır.
-
-# Axios:
-
-- Güncel projelerin büyük bir çoğunda kullanılan axios kütüphanesi bizim için api'a istek attığımızda büyük kolaylıklar sağlar.
-
-- Gelen isteğin jsondan js nesnesine çevirilmesi işlemini axios yapar
-- Gönderilecek isteğin bodysinde yer alacak verinin json a çevirilmesi işlemini yine axios yapar
-- Parametreleri işler
-- İsteklere zamana bağlı kontrol özelliği ekleme yeteneği sağlar
-- Uzun uzun url yazmak yerine bu urlleri özelleştirme yeteneği sunar
-# Rehber-Projesi
+🛠️ Kullanılan Teknolojiler
+React - Kullanıcı arayüzü için
+Axios - API işlemleri için
+HTML, CSS ve JavaScript - Ön yüz geliştirme için
