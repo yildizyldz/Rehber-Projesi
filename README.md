@@ -11,7 +11,8 @@
 🖼️ Proje Görseli
 Aşağıda projenin çalışma anını gösteren bir GIF bulunmaktadır:
 
-![Uploading EkranKayd2025-01-31134154-ezgif.com-video-to-gif-converter.gif…]()
+
+![Uploading screen.gif (2).gif…]()
 
 
 🛠️ Kullanılan Teknolojiler
